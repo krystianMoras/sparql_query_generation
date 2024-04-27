@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sparql-query-generation"
+version = "0.1.0"
+description = ""
+authors = ["Krystian Moras <krystianmoras@gmail.com>", "Mateusz Zwierzchowski <>", "Maciej Woś <>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+datasets = "^2.18.0"
+chromadb = "^0.5.0"
+fastembed = "^0.2.6"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
